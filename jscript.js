@@ -1,7 +1,7 @@
 document.getElementById("visitor").innerHTML = "error"; 
 
 try{
-  const response = fetch('https://bnqm19oa07.execute-api.us-east-1.amazonaws.com/default')
+  const response = fetch('https://cumuluscompendium.click/getVisitors')
    .then((response) => response.json())
    .then((data) => {document.getElementById("visitor").innerHTML = data});
   console.log(response.status);
