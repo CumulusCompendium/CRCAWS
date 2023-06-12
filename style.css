@@ -17,10 +17,13 @@ body {
 	line-height: 1;
 }
 
-ul {
+.no-bullet-list {
 	list-style: none;
 }
 
+ul {
+  line-height: 2; 
+}
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 
@@ -147,4 +150,5 @@ hr {
         margin-top: 10%;
     }
 }
+  
   
